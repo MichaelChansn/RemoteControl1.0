@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">远程控制系统</string>
+    <string name="keyboard">特殊键输入</string>
+    <string name="about">关于</string>
+    <string name="default_ip">192.168.1.100</string>
+    <string name="default_socket">8888</string>
+    <string name="sendbutton">发送</string>
+    <string name="ClearButton">退格</string>
+    <string name="enterbutton">回车</string>
+    <string name="iplabal">电脑IP：</string>
+    <string name="socketlabel">端口号：</string>
+    <string name="connectButton">手机连接电脑</string>
+    <string name="help">在这个TEXTVIEW上显示UDP和TCP的数据信息</string>
+    <string name="aboutlabel">南开电光</string>
+    <string name="helptitle">使用说明</string>
+    <string name="exit">退出当前窗口</string>
+    <string name="helpin">帮助</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="exit_message">程序退出</string>
+    <string name="reback">返回主界面</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+
+</resources>

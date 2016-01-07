@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mousecontrol_help" android:title="帮助"></item>
+    <item android:id="@+id/mousecontrol_mainview" android:title="返回主界面"></item>
+    <item android:id="@+id/mousecontrol_exit" android:title="退出程序"></item>
+    <item android:id="@+id/mouse_pc" android:title="控制电脑"></item>
+    <item android:id="@+id/mouse_hand" android:title="游戏手柄"></item>
+    <item android:id="@+id/mouse_keyboard" android:title="键盘输入"></item>
+    <item android:id="@+id/mousecontrol_softkeyboard" android:title="打开软键盘"></item>
+     <item android:id="@+id/mousecontrol_openmoive" android:title="打开电影模式"></item>
+    <item android:id="@+id/mousecontrol_closemoive" android:title="关闭电影模式"></item>
+   <item android:id="@+id/mousecontrol_openfull" android:title="打开全屏模式"></item>
+    <item android:id="@+id/mousecontrol_closefull" android:title="关闭全屏模式"></item>
+
+</menu>

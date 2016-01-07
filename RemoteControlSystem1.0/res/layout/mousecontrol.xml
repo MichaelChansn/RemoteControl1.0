@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            
+            
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+             
+            >
+
+            <FrameLayout
+                android:id="@+id/touch"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:clickable="true"
+                android:longClickable="true"
+                android:background="@drawable/bizhi" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:focusable="false"
+                    android:scaleType="fitXY" />
+
+                <EditText
+                    android:id="@+id/text_transout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:background="#00000000"
+                    android:ems="20"
+                    android:gravity="top|left"
+                    android:imeOptions="normal|actionUnspecified|actionDone"
+                    android:inputType="text"
+                    android:maxLines="2"
+                    android:visibility="visible" >
+
+                    <requestFocus />
+                </EditText>
+
+                 <LinearLayout
+                     android:id="@+id/mouseMiddleButton"
+                     android:layout_width="40dp"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="right"
+                     android:background="@color/halfalpha"
+                     android:orientation="vertical"
+                     android:visibility="gone" >
+
+                 </LinearLayout>
+
+                 <TextView
+                     android:id="@+id/noConnection"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_marginTop="80dip"
+                     android:gravity="center_horizontal"
+                     android:text="亲，还没连接到电脑哦！"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:textColor="@color/red"
+                     android:textSize="25sp"
+                     android:visibility="visible" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/mouseButtonGone"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:visibility="gone" >
+
+                <FrameLayout
+                    android:id="@+id/leftButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/zuo"
+                    android:focusable="false" >
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/middleButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/wheel"
+                    android:focusable="false" >
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/rightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/you"
+                    android:focusable="false" >
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

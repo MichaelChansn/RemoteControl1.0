@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/control_help" android:title="帮助"></item>
+    <item android:id="@+id/control_back" android:title="返回主界面"></item>
+    <item android:id="@+id/control_exit" android:title="退出程序"></item>
+    <item android:id="@+id/control_keyboard" android:title="键盘输入"></item>
+    <item android:id="@+id/control_hand" android:title="游戏手柄"></item>
+    <item android:id="@+id/control_mouse" android:title=" 鼠标控制"></item>
+    
+
+</menu>

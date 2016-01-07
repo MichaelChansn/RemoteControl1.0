@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/keyboardhelp"
+android:title="帮助"
+ />
+  <item android:id="@+id/keyboard_reback"
+android:title="返回主界面"
+ />
+  <item android:id="@+id/keyboard_exit"
+android:title="退出程序"
+ />
+  <item android:id="@+id/keyboard_pc" android:title="控制电脑"></item>
+  <item android:id="@+id/keyboard_hand" android:title="游戏手柄"></item>
+  <item android:id="@+id/keyboard_mouse" android:title="鼠标控制"></item> 
+ 
+
+</menu>

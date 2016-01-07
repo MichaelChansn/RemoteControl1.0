@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/handhelp"
+android:title="帮助"
+ />
+ 
+   <item android:id="@+id/reback"
+android:title="返回主界面"
+ />
+ 
+   <item android:id="@+id/exit"
+android:title="退出程序"
+ />
+   <item android:id="@+id/hand_pc" android:title="控制电脑"></item>
+   <item android:id="@+id/hand_mouse" android:title="鼠标控制"></item>
+   <item android:id="@+id/hand_keyboard" android:title="键盘输入"></item>
+   <item android:id="@+id/hand_openmutil" android:title="多触点手柄"></item>
+</menu>
